@@ -21,7 +21,7 @@ export default class About extends React.Component<PageProps> {
           >
             excel小工具.
           </a>{' '}
-          黄盛版权所有仿冒必究
+          许道斌版权所有仿冒必究
         </p>
       </div>
     )

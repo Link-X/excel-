@@ -39,7 +39,7 @@ export default class Demo extends React.Component<any, any> {
             程序将自动去除表格中的乱码或特殊字符，仅支持excel文件，并且内容符合标准
           </p>
         </Dragger>
-        <div className="tip">版权所有：黄盛</div>
+        <div className="tip">版权所有：许道斌</div>
       </div>
     )
   }
