@@ -84,6 +84,7 @@
   },
   "homepage": "http://39.108.184.64/#/",
   "dependencies": {
+    "electron-drag": "^2.0.0",
     "node-xlsx": "^0.15.0"
   }
 }

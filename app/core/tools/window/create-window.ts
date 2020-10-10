@@ -55,6 +55,7 @@ export function createWindow(key: RouterKey, options: CreateWindowOptions = {}):
       ...$tools.DEFAULT_WINDOW_OPTIONS, // 默认新窗口选项
       ...routeConfig.windowOptions, // routes 中的配置的window选项
       ...options.windowOptions, // 调用方法时传入的选项
+      ...{ frame: false },
     }
 
     const createConfig: CreateConfig = {
