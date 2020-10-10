@@ -1,0 +1,14 @@
+[
+  {
+    "key": "Demo",
+    "href": "#/",
+    "title": "上传文件",
+    "icon": "home-3"
+  },
+  {
+    "key": "About",
+    "href": "#/about",
+    "title": "关于",
+    "icon": "information"
+  }
+]

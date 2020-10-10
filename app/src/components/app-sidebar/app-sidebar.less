@@ -1,0 +1,59 @@
+@import '~@/src/styles/_var.less';
+
+.app-sidebar {
+  width: 100vw;
+  height: @sidebar_width;
+  background-color: @sidebar_background;
+  color: fade(@color_light, 75);
+  user-select: none;
+  .side-menu {
+    margin-top: @padding;
+    .side-menu-item {
+      width: 150px;
+      text-align: center;
+      padding: @padding;
+      color: fade(@color_light, 65);
+      &:hover,
+      &.active {
+        color: @color_white;
+      }
+    }
+  }
+  .item-list {
+    display: flex;
+    .ant-menu-item {
+      display: flex;
+      align-items: center;
+    }
+    .ant-menu-submenu-title {
+      display: flex;
+      align-items: center;
+    }
+    .sidebar-icon_dom {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right: 8px;
+    }
+
+    .icon-upload {
+      background-image: url('../../../../assets/app-page/upload-img.png');
+    }
+    .icon-location {
+      background-image: url('../../../../assets/app-page/location.png');
+    }
+
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+      background-color: #f3f3f3;
+    }
+    .ant-menu-root.ant-menu-inline {
+      background: transparent;
+    }
+    .ant-menu-inline .ant-menu-item::after {
+      display: none;
+    }
+  }
+}
